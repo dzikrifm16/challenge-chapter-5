@@ -24,10 +24,6 @@ class LoginActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
 
-        binding.crashButton.setOnClickListener {
-            throw RuntimeException("Test Crash") // Force a crash
-        }
-
 
         binding.btnToRegister.setOnClickListener{
             val intent = Intent(this, RegisterActivity::class.java)

@@ -48,6 +48,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:text="Ambil Sendiri"
+        android:backgroundTint="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -58,6 +59,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="40dp"
         android:text="Tunai"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -67,6 +69,7 @@
         android:layout_height="43dp"
         android:layout_marginEnd="16dp"
         android:text="Dikirim"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button2" />
 
@@ -76,6 +79,7 @@
         android:layout_height="43dp"
         android:layout_marginEnd="16dp"
         android:text="Dompet Digital"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button5" />
 
@@ -96,6 +100,7 @@
         android:layout_height="43dp"
         android:layout_marginBottom="60dp"
         android:text="Pesan"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
